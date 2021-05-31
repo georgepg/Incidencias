@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Incidencias</string>
+    <string name="Languaje">Idiomas</string>
+    <string name="Saludo_Principal">¡ Hola de nuevo !</string>
+    <string name="Saludo_Secundario">Inicia sesion para continuar</string>
+    <string name="EditText_correp">Correo electrónico</string>
+    <string name="EditText_contraseña">Contraseña</string>
+    <string name="btn_INICIO">Iniciar sesión</string>
+
+    <string name="btn_añadir">Añadir Incidencia</string>
+    <string name="btn_view">Ver Incidencias</string>
+
+    <string name="btn_add_incidencia">AGREGAR</string>
+    <string name="btn_menu">Volver al Menu</string>
+    <string name="edtNomIncidencia">Nombre de Incidencia</string>
+
+    <string name="txtList">Lista de Incidencias</string>
+
+</resources>

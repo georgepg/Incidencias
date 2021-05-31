@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Incidències</string>
+    <string name="Languaje">Idiomes</string>
+    <string name="Saludo_Principal">¡ Hola de nou !</string>
+    <string name="Saludo_Secundario">Inicia sessió per continuar</string>
+    <string name="EditText_correp">Correu electrònic</string>
+    <string name="EditText_contraseña">Clau</string>
+    <string name="btn_INICIO">Inicia sessió</string>
+
+    <string name="btn_añadir">Afegir Incidència</string>
+    <string name="btn_view">Veure Incidències</string>
+
+    <string name="btn_add_incidencia">AGREGAR</string>
+    <string name="btn_menu">Tornar a el Menú</string>
+    <string name="edtNomIncidencia">Nom d\'Incidència</string>
+
+    <string name="txtList">Llista d\'Incidències</string>
+</resources>

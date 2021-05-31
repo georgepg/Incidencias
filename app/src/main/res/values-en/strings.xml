@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Incidents</string>
+    <string name="Languaje">Languages</string>
+    <string name="Saludo_Principal">¡ Hello again !</string>
+    <string name="Saludo_Secundario">Login to continue</string>
+    <string name="EditText_correp">E-mail</string>
+    <string name="EditText_contraseña">Password</string>
+    <string name="btn_INICIO">log in</string>
+
+    <string name="btn_añadir">Add Incident</string>
+    <string name="btn_view">See Incidents</string>
+
+    <string name="btn_add_incidencia">ADD</string>
+    <string name="btn_menu">Back to menu</string>
+    <string name="edtNomIncidencia">Incident Name</string>
+
+    <string name="txtList">List of Incidents</string>
+</resources>

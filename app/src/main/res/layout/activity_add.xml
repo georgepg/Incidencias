@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:padding="30dp"
+    android:background="@drawable/gradient"
+    >
+    <ImageView
+        android:id="@+id/imgLogin"
+        android:layout_width="120dp"
+        android:layout_height="100dp"
+        android:src="@drawable/incidenciaslog"
+        android:transitionName="logoImageTrans"
+        android:layout_gravity="center"
+        android:layout_marginTop="70dp"
+        android:layout_marginBottom="40dp"
+        />
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:id="@+id/tfnameIncidencia"
+        android:hint="@string/edtNomIncidencia"
+        app:boxStrokeErrorColor="#F81B02"
+        app:boxStrokeColor="#fff"
+        android:textColorHint="#fff"
+        app:hintTextColor="#fff"
+        app:boxCornerRadiusBottomEnd="15dp"
+        app:boxCornerRadiusBottomStart="15dp"
+        app:boxCornerRadiusTopEnd="15dp"
+        app:boxCornerRadiusTopStart="15dp"
+        android:transitionName="emaiInputTextTrans"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edtnameIncidencia"
+            android:layout_width="match_parent"
+            android:fontFamily="@font/abel"
+            android:textColor="#fff"
+            android:drawablePadding="12dp"
+            android:drawableStart="@drawable/report"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/report" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnAgregar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="@string/btn_add_incidencia"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        app:cornerRadius="15dp"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnVolver"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="@string/btn_menu"
+        android:gravity="center"
+        android:layout_gravity="center"
+        app:cornerRadius="15dp"/>
+
+</LinearLayout>
